@@ -12,3 +12,5 @@ git commit -m '메시지'
 git branch 작명 
 복사본으로 이동하기
 git switch 작명
+
+git log --oneline --all --graph로 분기표시되게 봄
