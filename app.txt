@@ -53,6 +53,6 @@ git reset --mixed 커밋아이디 / 리셋인데 변동사항 안 지우고 unst
 깃허브에 우선 repository 만들어두기.
 git branch -M main을 통해 기본 master였던 이름을 main으로 변경하기.
 
-git push -u 저장소주소 올릴 브랜치명 
+git push -u 저장소주소 올릴 브랜치명 -u는 최초에 이 주소 기억하라고 쓰는 거라 그 후에는 걍 git push만 해도 된다.
 git에서 변수문법 사용가능 
 git remote add 변수명 내용
