@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 --git 시작-- master에서 수정함~
+=======
+--git 시작-- 쿠폰에서 수정함~
+>>>>>>> coupon
 해당 파일로 가서
 git config --global user.email "이메일"
 git config --global user.name "이름"
