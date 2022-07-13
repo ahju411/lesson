@@ -64,4 +64,4 @@ git clone 원격저장소주소 / 이를 통해 받아온다.
 그럴 땐 git pull 저장소주소로 땡겨온다.
 
 --git branch로 협업하기--
-브랜치 -> merge 방법이 제일 안전함
+브랜치 -> merge 방법이 제일 안전함 aaa
