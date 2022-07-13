@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 --git 시작-- master에서 수정함~
-=======
---git 시작-- 쿠폰에서 수정함~
->>>>>>> coupon
 해당 파일로 가서
 git config --global user.email "이메일"
 git config --global user.name "이름"
@@ -18,3 +14,22 @@ git branch 작명
 git switch 작명
 
 git log --oneline --all --graph로 분기표시되게 봄
+git merge 새로운 브랜치명으로 합치기 가능
+
+만약 conflict가 발생할 경우에는 그냥 마음에 드는 코드만 남기고 add commit 하면 됨
+
+
+--브랜치 만드는 다른 방법--
+1. 일반적인 경우 3 way merge (신규 branch와 메인 branch 모두 commit이 있을 경우)
+
+2. 기준 브랜치(main branch)에 신규 commit이 없는 경우 fast-forward merge -> 그냥 그 브랜치를 main branch로 지정함 즉 쿠폰에서만 변동이 있으면 쿠폰 -> main으로 됨
+그게 싫으면 git merge --no-ff coupon하면 강제 3 way merge 
+*. 브랜치 삭제는 git branch -d 브랜치이름 (merge 완료 경우)
+git branch -D 브랜치이름 (merge 안 한 경우)
+
+3. rebase & fast-forward merge 쓰는 이유는 깃 로그가 너무 복잡해지니까 그걸 줄이기 위해서 하는 거다. 단점 : conflict가 자주 발생
+방법: 새로운 브랜치로 가서 git rebase 메인브랜치명 -> 메인브랜치로 이동해서 git merge 새로운 브랜치명
+
+4. squash & merge // git merge --squash 새브랜치 그냥 깨끗해 보인다.
+
+보통 중요한 건 3way 안 중요한 건 squash를 한다. 3 way를 하면 이전 기록도 남고, squash를 하면 싹다 합쳐지기 때문이다.
