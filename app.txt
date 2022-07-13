@@ -1,2 +1,16 @@
-aaaaaaaaaaaaaaa
-bbbbbbbbbbbbb
+--git 시작--
+해당 파일로 가서
+git config --global user.email "이메일"
+git config --global user.name "이름"
+
+--git 진짜 시작--
+git init 
+git add 어쩌구
+git commit -m '메시지'
+
+--복사본 만들기 --
+git branch 작명 
+복사본으로 이동하기
+git switch 작명
+
+git log --oneline --all --graph로 분기표시되게 봄
