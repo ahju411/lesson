@@ -6,7 +6,7 @@ git config --global user.name "이름"
 --git 진짜 시작--
 git init 
 git add 어쩌구
-git commit 
+git commit -m '메시지'
 
 --복사본 만들기 --
 git branch 작명 
