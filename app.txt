@@ -56,3 +56,12 @@ git branch -M main을 통해 기본 master였던 이름을 main으로 변경하�
 git push -u 저장소주소 올릴 브랜치명 -u는 최초에 이 주소 기억하라고 쓰는 거라 그 후에는 걍 git push만 해도 된다.
 git에서 변수문법 사용가능 
 git remote add 변수명 내용
+
+--git으로 협업하기--
+팀원도 깃헙에 collaborators로 등록해놔야함.
+git clone 원격저장소주소 / 이를 통해 받아온다.
+원격 저장소랑 다른 부분이 있으면 push 오류가 난다.
+그럴 땐 git pull 저장소주소로 땡겨온다.
+
+--git branch로 협업하기--
+브랜치 -> merge 방법이 제일 안전함
