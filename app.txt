@@ -47,3 +47,8 @@ git revert 커밋아이디 커밋아이디 2개 가능 /최근 커밋 취소는 
 git reset --hard 커밋아이디 /협업할 때 큰일난다.
 git reset --soft 커밋아이디 / 리셋인데 변동사항 안 지우고 스테이징상태
 git reset --mixed 커밋아이디 / 리셋인데 변동사항 안 지우고 unstaging 상태
+
+--git 원격 저장소에 올리기--
+로컬에서 원격으로 백업하기 
+깃허브에 우선 repository 만들어두기.
+git branch -M main을 통해 기본 master였던 이름을 main으로 변경하기.
